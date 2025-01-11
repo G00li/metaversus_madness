@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Metaversus Madness
 
-## Getting Started
 
-First, run the development server:
+![Status do Projeto](https://img.shields.io/badge/Status-Completo-blue)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Metaversus Madness é um projeto pessoal desenvolvido para estudo e aprimoramento de habilidades em desenvolvimento web moderno. O objetivo é criar uma aplicação web interativa que explore conceitos do metaverso, proporcionando uma experiência imersiva aos usuários.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologias Utilizadas
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Next.js**: Framework React para desenvolvimento de aplicações web.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **Framer Motion**: Biblioteca para animações em React.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🎨 Animações
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+O projeto utiliza o Framer Motion para implementar animações suaves e interativas, melhorando a experiência do usuário com transições elegantes entre componentes e elementos da interface.
 
-## Learn More
+## 📱 Responsividade
 
-To learn more about Next.js, take a look at the following resources:
+A interface foi desenvolvida com foco em responsividade, garantindo uma experiência consistente e adaptada em dispositivos de diferentes tamanhos de tela, desde desktops até smartphones.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Como Executar o Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Pré-requisitos
 
-## Deploy on Vercel
+- **Node.js**: Certifique-se de ter o Node.js instalado na versão 14 ou superior.
+- **npm**: O npm é necessário para gerenciar as dependências do projeto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Passos para execução
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clonar o repositório**:
+
+   ```bash
+   git clone https://github.com/G00li/metaversus_madness.git
+   ```
+
+2. **Navegar até a pasta do projeto**:
+    ```bash
+    cd metaversus_madness
+    ```
+
+3. **Instalar as dependências**:
+    ```bash
+    npm install
+    ```
+4. **Iniciar o servidor de desenvolvimento**:
+    ```bash
+    npm run dev
+    ```
+
+5. **Acessar a aplicação**:
+    
+    Abra o navegador e vá para http://localhost:3000 para visualizar a aplicação em execução.
+
+## 📄 Licença
+Este projeto está sob a licença MIT.
+Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
